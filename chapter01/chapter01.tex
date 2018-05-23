@@ -1,0 +1,176 @@
+\newcommand{\starScheduler}{\href{http://www.star.bnl.gov/public/comp/Grid/scheduler/manual.htm}{见链接}}
+\chapter{STAR scheduler-User Manual}
+\section{Introduction}
+The STAR scheduler was developed to allow users to submit a job on several input files.
+residing on NFS of on the various local disks of the farm machines.
+The scheduler will divide the job into different processes that will be dispatched to different machines.
+In order for the scheduler to do that,
+the user has to follow some simple rules when writing his program,
+and to write an XML file describing the job he wants to be done.
+
+In this manual we show the steps the user needs to take to use the scheduler.
+
+\section{An example}
+\subsection{Preparing the program}
+What will you basically submit to the scheduler is a command line.
+The program will have to receive instruction from the scheduler which input files it should use.
+For your convenience,
+there are two ways this is done.
+\subsubsection{Getting the input files from the filelist}
+The scheduler will generate a file list like this for each process:
+\begin{center}
+\rowcolors{0}{seagreen}{seagreen}
+\begin{tabular}{l}
+/star/data21/reco/productionCentral/FullField/P02gc/2001/312/st\_physics\_2312011\_raw\_0017.MuDst.root\\
+/star/data21/reco/productionCentral/FullField/P02gc/2001/312/st\_physics\_2312011\_raw\_0016.MuDst.root\\
+/star/data21/reco/productionCentral/FullField/P02gc/2001/312/st\_physics\_2312011\_raw\_0015.MuDst.root
+\end{tabular}
+\end{center}
+
+The environment variable \$FILELIST will be set to the name of the file list.
+You can use this variable on the command line to retrieve the name as a parameter of your program.
+For example, submitting cat \$FILELIST will display in the standard out all the input files that were assigned to that particular process.
+
+Be careful that the output file is different for every process it might be dispatched,
+otherwise two processes that were dispatched to different machines and are running in the same moment will interfere with each other.
+You can, for example,
+have the name of the output files depend on the filelist name,
+or from the job ID,
+which you can retrieve from the environment variable \$JOBID.
+In case you have an output file for each input file,
+and all your input files have different names,
+you can have the output file depend on the particular input.
+All the input files are assigned to only one process.
+
+\subsubsection{Getting the input files from environment variables}
+Another way to retrieve the file list is to look for the \$INPUTFILECOUNT variable that tells you how many files where assigned to the process.
+Then you can look for the \$INPUTFILE0\dots\$INPUTFILEn for each input file name.
+Also here you have to be careful for the output file names.
+
+\subsection{Job description}
+Once your program is ready, you can write the job description. A job description looks like this:
+\begin{figure}[hbpt]
+  \centering
+  \includegraphics[width=\linewidth]{./pictures/pass.pdf}
+  \caption{jobDescription}
+  \label{fig:jobDescription}
+\end{figure}
+The first line tells the parser what set of characters was used.
+Don't worry about it.
+If you are not used to XML,
+you can see that there are some tags that open and close.
+The main tag you see is $<$job$>$ that closes at $<$/job$>$.
+It means that everything inside that describes a job.
+You could have more than one,
+but you won't need to do that.
+Not having specified the working directory,
+the current directory will be used.
+
+Inside the job, you can see another tag $<$command$>$.
+Inside that you will put the command line you will want to be executed.
+Then you have the $<$stdout$>$ tag:
+it tells where the output of the process will be saved.
+After that you see many $<$input$>$ tags.
+These don't have a $<$/stdout$>$ or $<$/input$>$ because they are directly closed at the end (notice the \textquoteleft{/}\textquoteright in the ending \textquoteleft{/}$>$\textquoteright).
+URL is an attribute of all the tags that will specify a file (input, stdout, stdin, stderr).
+For example,
+in the first input tag you are telling the scheduler that you require that file as an input for your job.
+After \textquotedblleft{file:}\textquotedblright you have to put a full path to an NFS mounted file.
+
+There are other options you can specify in your job description,
+and you can find the details later in this manual.
+
+\subsection{job submit}
+Once you have prepared your XML file, you are ready. You just type:
+\begin{center}
+  \colorbox{seagreen}{star-submit jobDescription.xml}
+\end{center}
+where jobDescription.xml is the name of the file that contains your job description.
+In this version,
+you have to specify the position of the star-submit command.
+In the final version, that won't be required.
+
+The scheduler will create the scripts and the file lists for the processes.
+These will be created in your directory.
+Also this will change in the final version,
+and they will be put in a scratch directory.
+
+\section{Job description specification}
+Here is the full specification of what the XML for the job description can contain.
+
+\subsection{XML syntax}
+You don't need to know XML very well to understand how to use the scheduler.
+For the sake of being complete,
+here are a few concept that you will see in this description.
+It's not necessary to know them, but since XML is being more and more used,
+it might satisfy a general curiosity.
+Remember that HTML is kind of a subset of XML.
+
+The basic notion in XML is the element (or entity),
+which is basically two tags with the same name:
+a start tag and an end tag.
+For example, $<$job$>$\dots$<{/}$job$>$ is an element.
+
+An element can have some attributes,
+that better specify it.
+For example, in $<$job title=\textquotedblleft My title\textquotedblright$>$ title is an attribute of the job element.
+The attributes are specified in the start tag.
+
+An element generally contain some data, that can be other elements,
+or just some text, for example in:
+\begin{center}
+  \colorbox{seagreen}{$<$job$>$ <command>echo test$<$/command$>$ $<$/job$>$}
+\end{center}
+The element job contains the element command that in turn contain the data \textquotedblleft{echo test}\textquotedblright.
+An element can also contain no data at all,
+and just have some attributes.
+For example, in $<$input URL=\textquotedblleft{}file:/star/u/carcassi/myfile\textquotedblright{}/$>$ we have the element input,
+with a URL attribute, the ends right away.
+That is the start tag and the end tag are put together in one tag (notice the \textquoteleft{}/\textquoteright{} in the end).
+
+That is all the XML we are using in the scheduler.
+
+\subsection{the $<$Job$>$ element}
+Here is an example of the $<$job$>$ element with all the attributes:
+\begin{center}
+\rowcolors{0}{seagreen}{seagreen}
+  \begin{tabular}{l}
+    $<$job simulateSubmission =\textquotedblleft{}true\textquotedblright{} mail=\textquotedblleft{}true\textquotedblright{}$>$ \\
+    \dots \\
+    $<$/job$>$
+  \end{tabular}
+\end{center}
+The $<$job$>$ element can be have the following attributes~\ref{attributeOfJob}:\\
+\begin{sidewaystable}[h]
+  \caption{The attributes of $<$job$>$ element}
+  \begin{tabular}{|c|c|c|c|}\hline
+    Attribute & Allowed values & Meaning & Default \\\hline
+    datasetPlitting & \textquotedblleft{}eventBased\textquotedblright{} or \textquotedblleft{}fileBased\textquotedblright{} & \starScheduler & \textquotedblleft{}fileBased\textquotedblright{}\\\hline
+    splitBy & Any Catalog key & \starScheduler & none \\\hline
+    simulateSubmission & \textquotedblleft{}true\textquotedblright{} or \textquotedblleft{}false\textquotedblright{} & \starScheduler & false-by default the jobs are submitted \\\hline
+    name & any string & \starScheduler & none \\\hline
+    mail & \textquotedblleft{}true\textquotedblright{} or \textquotedblleft{}false\textquotedblright{} & \starScheduler & false-by default no mail is allowed \\\hline
+    nProcesses & any integer & \starScheduler & Determined by the input \\\hline
+    maxEvents & any integer & \starScheduler & infinite \\\hline
+    minEvents & any integer & \starScheduler & N/A \\\hline
+    softLimits & \textquotedblleft{}false\textquotedblright{} & \starScheduler & false \\\hline
+    maxFilesPerProcess & any integer & \starScheduler & Infinite \\\hline
+    minFilesPerProcess & any integer & \starScheduler & N/A \\\hline
+    eventsPerHour & integer of floating point & \starScheduler & Infinite \\\hline
+    filesPerHour & intgeger or floating point & \starScheduler & Infinite \\\hline
+    filesListSyntax & \textquotedblleft{}paths\textquotedblright{} or \textquotedblleft{}rootd\textquotedblright{} or \textquotedblleft{}xrootd\textquotedblright{} & \starScheduler & paths \\\hline
+    inputOrder & a string that is a catalog attribute & \starScheduler & none \\\hline
+  \end{tabular}
+  \label{attributeOfJob}
+\end{sidewaystable}
+
+Below is a list of dispatcher and the job tag attributes each supports.
+It should be noted that the attributes (simulateSubmission, nProcesses, maxFilesPerProcess, minFilesPerProcess, filesPerHour, fileListSyntax, inputOrder) are supported by all dispatchers,
+as they are observed at a higher level \starScheduler.
+
+\subsection{The $<$command$>$ element}
+The $<$command$>$ element doesn't have any attributes, and the data that it contains is the actual command script that will be submitted using a csh script.
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "chapter01"
+%%% End:

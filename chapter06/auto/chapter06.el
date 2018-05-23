@@ -1,0 +1,33 @@
+(TeX-add-style-hook
+ "chapter06"
+ (lambda ()
+   (LaTeX-add-labels
+    "eq:chapterSix1"
+    "eq:chapterSix2"
+    "eq:chapterSix3"
+    "eq:chapterSix4"
+    "eq:chapterSix5"
+    "eq:chapterSix6"
+    "fig:hbt-coordinate"
+    "eq:chapterSix7"
+    "eq:chapterSix8"
+    "eq:chapterSix9"
+    "eq:chapterSix10"
+    "eq:chapterSix11"
+    "eq:chapterSix12"
+    "eq:chapterSix15"
+    "eq:chapterSix13"
+    "eq:chapterSix14"
+    "eq:chapterSix16"
+    "eq:chapterSix17"
+    "eq:chapterSix18"
+    "eq:chapterSix19"
+    "eq:chapterSix20"
+    "eq:chapterSix21"
+    "eq:chapterSix22"
+    "fig:pratt-coordinate"
+    "eq:chapterSix23"
+    "eq:chapterSix24"
+    "fig:opaque-source"))
+ :latex)
+
