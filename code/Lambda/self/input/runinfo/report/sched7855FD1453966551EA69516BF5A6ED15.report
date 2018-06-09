@@ -1,0 +1,672 @@
+000 (2046627.000.000) 03/19 22:11:08 Job submitted from host: <130.199.206.138:9618?addrs=130.199.206.138-9618&noUDP&sock=7204_1315_4>
+...
+001 (2046627.000.000) 03/19 22:11:44 Job executing on host: <130.199.205.3:9618?addrs=130.199.205.3-9618&noUDP&sock=7491_e80b_3>
+...
+006 (2046627.000.000) 03/19 22:11:53 Image size of job updated: 859184
+	814  -  MemoryUsage of job (MB)
+	832800  -  ResidentSetSize of job (KB)
+...
+006 (2046627.000.000) 03/19 22:16:54 Image size of job updated: 922480
+	876  -  MemoryUsage of job (MB)
+	896044  -  ResidentSetSize of job (KB)
+...
+006 (2046627.000.000) 03/19 22:21:55 Image size of job updated: 926300
+	879  -  MemoryUsage of job (MB)
+	899864  -  ResidentSetSize of job (KB)
+...
+006 (2046627.000.000) 03/19 22:26:55 Image size of job updated: 927772
+	881  -  MemoryUsage of job (MB)
+	901336  -  ResidentSetSize of job (KB)
+...
+006 (2046627.000.000) 03/19 22:31:56 Image size of job updated: 927888
+	881  -  MemoryUsage of job (MB)
+	901452  -  ResidentSetSize of job (KB)
+...
+005 (2046627.000.000) 03/19 22:32:57 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:20:46, Sys 0 00:00:27  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:20:46, Sys 0 00:00:27  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  33454337
+	   Memory (MB)          :      881        1      2005
+...
+928
+	879  -  MemoryUsage of job (MB)
+	899100  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:01:44 Image size of job updated: 917972
+	879  -  MemoryUsage of job (MB)
+	899144  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:06:44 Image size of job updated: 917980
+	879  -  MemoryUsage of job (MB)
+	899152  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:11:44 Image size of job updated: 917984
+	879  -  MemoryUsage of job (MB)
+	899156  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:16:45 Image size of job updated: 917992
+	879  -  MemoryUsage of job (MB)
+	899164  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:21:45 Image size of job updated: 918012
+	879  -  MemoryUsage of job (MB)
+	899184  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:26:45 Image size of job updated: 918020
+	879  -  MemoryUsage of job (MB)
+	899192  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:31:46 Image size of job updated: 922472
+	883  -  MemoryUsage of job (MB)
+	903644  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/19 23:51:49 Image size of job updated: 922472
+	883  -  MemoryUsage of job (MB)
+	903648  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/20 00:01:49 Image size of job updated: 932848
+	894  -  MemoryUsage of job (MB)
+	914928  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/20 01:01:54 Image size of job updated: 932848
+	894  -  MemoryUsage of job (MB)
+	915184  -  ResidentSetSize of job (KB)
+...
+006 (2046561.000.000) 03/20 02:02:43 Image size of job updated: 1197632
+	894  -  MemoryUsage of job (MB)
+	915184  -  ResidentSetSize of job (KB)
+...
+005 (2046561.000.000) 03/20 02:02:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 03:48:31, Sys 0 00:03:52  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 03:48:31, Sys 0 00:03:52  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  41848135
+	   Memory (MB)          :      894        1      2007
+...
+ -  MemoryUsage of job (MB)
+	914456  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 00:36:54 Image size of job updated: 940900
+	894  -  MemoryUsage of job (MB)
+	914464  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 00:41:54 Image size of job updated: 940912
+	894  -  MemoryUsage of job (MB)
+	914476  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 00:46:55 Image size of job updated: 940972
+	894  -  MemoryUsage of job (MB)
+	914536  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 00:51:55 Image size of job updated: 940988
+	894  -  MemoryUsage of job (MB)
+	914552  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 00:56:55 Image size of job updated: 941056
+	894  -  MemoryUsage of job (MB)
+	914620  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:01:56 Image size of job updated: 941076
+	894  -  MemoryUsage of job (MB)
+	914640  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:06:57 Image size of job updated: 941088
+	894  -  MemoryUsage of job (MB)
+	914652  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:11:57 Image size of job updated: 941104
+	894  -  MemoryUsage of job (MB)
+	914668  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:16:58 Image size of job updated: 941116
+	894  -  MemoryUsage of job (MB)
+	914680  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:21:59 Image size of job updated: 941140
+	894  -  MemoryUsage of job (MB)
+	914704  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:26:59 Image size of job updated: 941160
+	894  -  MemoryUsage of job (MB)
+	914724  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:31:59 Image size of job updated: 941172
+	894  -  MemoryUsage of job (MB)
+	914736  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:37:00 Image size of job updated: 941180
+	894  -  MemoryUsage of job (MB)
+	914744  -  ResidentSetSize of job (KB)
+...
+006 (2046559.000.000) 03/20 01:40:32 Image size of job updated: 990132
+	894  -  MemoryUsage of job (MB)
+	914744  -  ResidentSetSize of job (KB)
+...
+005 (2046559.000.000) 03/20 01:40:32 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 03:23:45, Sys 0 00:02:45  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 03:23:45, Sys 0 00:02:45  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10 191225021
+	   Memory (MB)          :      894        1      2005
+...
+d By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  41848028
+	   Memory (MB)          :      909        1      2007
+...
+Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  59784834
+	   Memory (MB)          :      893        1      2007
+...
+87  -  MemoryUsage of job (MB)
+	907696  -  ResidentSetSize of job (KB)
+...
+006 (2046541.000.000) 03/20 02:37:01 Image size of job updated: 931580
+	887  -  MemoryUsage of job (MB)
+	907700  -  ResidentSetSize of job (KB)
+...
+006 (2046541.000.000) 03/20 02:42:02 Image size of job updated: 931580
+	887  -  MemoryUsage of job (MB)
+	907720  -  ResidentSetSize of job (KB)
+...
+006 (2046541.000.000) 03/20 02:47:02 Image size of job updated: 931580
+	887  -  MemoryUsage of job (MB)
+	907728  -  ResidentSetSize of job (KB)
+...
+006 (2046541.000.000) 03/20 02:52:02 Image size of job updated: 931580
+	887  -  MemoryUsage of job (MB)
+	907732  -  ResidentSetSize of job (KB)
+...
+005 (2046541.000.000) 03/20 02:55:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 04:37:18, Sys 0 00:04:54  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 04:37:18, Sys 0 00:04:54  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10  59786510
+	   Memory (MB)          :      887        1      2007
+...
+ts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_27.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_27.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_27.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_27.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_26.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_26.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_26.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_26.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_25.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_25.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_25.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_25.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_24.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_24.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_24.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_24.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_23.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_23.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_23.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_23.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_22.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_22.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_22.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_22.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_21.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_21.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_21.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_21.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_20.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_20.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_20.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_20.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_19.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_19.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_19.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_19.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_18.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_18.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_18.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_18.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_17.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_17.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_17.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_17.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_16.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_16.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_16.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_16.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_15.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_15.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_15.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_15.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_14.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_14.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_14.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_14.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_13.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_13.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_13.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_13.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_12.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_12.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_12.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_12.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_11.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_11.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_11.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_11.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_10.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_10.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_10.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_10.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_9.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_9.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_9.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_9.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_8.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_8.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_8.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_8.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_7.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_7.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_7.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_7.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_6.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_6.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_6.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_6.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_5.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_5.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_5.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_5.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_4.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_4.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_4.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_4.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_3.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_3.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_3.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_3.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_2.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_2.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_2.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_2.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_1.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_1.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_1.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_1.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_0.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_0.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_0.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_0.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+GINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/jhai/Strange/fromPeng/input/runinfo/csh/sched7855FD1453966551EA69516BF5A6ED15_62.csh
+Output         = /star/u/jhai/Strange/fromPeng/input/runinfo/out/7855FD1453966551EA69516BF5A6ED15_62.log
+Error          = /star/u/jhai/Strange/fromPeng/input/runinfo/err/7855FD1453966551EA69516BF5A6ED15_62.err
+Requirements   = ((CPU_Experiment == "star") || ( CPU_Experiment == "phenix" ))
+Log            = /star/u/jhai/Strange/fromPeng/input/runinfo/report/sched7855FD1453966551EA69516BF5A6ED15_62.condor.log
+Initialdir     = /star/u/jhai/Strange/fromPeng/input
++Experiment     = "general"                              
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10))  || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Noti
