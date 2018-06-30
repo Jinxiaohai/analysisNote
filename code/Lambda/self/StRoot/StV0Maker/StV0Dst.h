@@ -37,6 +37,7 @@ struct StV0Dst {
   double v0sinth[MAX_NUM_V0];
   double v0theta[MAX_NUM_V0];
   double dca1to2[MAX_NUM_V0];
+
   // dau1******************************************
   int dau1id[MAX_NUM_V0];
   double dau1dca[MAX_NUM_V0];
@@ -64,6 +65,7 @@ struct StV0Dst {
   int dau1IST2[MAX_NUM_V0];
   int dau1SSD1[MAX_NUM_V0];
   int dau1SSD2[MAX_NUM_V0];
+
   // dau2********************************************
   int dau2id[MAX_NUM_V0];
   double dau2dca[MAX_NUM_V0];

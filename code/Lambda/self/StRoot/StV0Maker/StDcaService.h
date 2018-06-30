@@ -7,11 +7,33 @@
 // this struct is for Hui LONG's dcaPToPi function ONLY.
 // it is just the 'Helix' in his code.
 // some useless items are commented out.
+///////////////////////////////////////////////////////////////////////
+/// was added by xiaohai (begin)
+///////////////////////////////////////////////////////////////////////
+/// The ROOT description: if a particle with charge q passes through a
+/// point (x, y, z) with momentum (px, py, pz) with magnetic field B
+/// along (nx, ny, nz), this can be constructed like:
+/// THelix p(x, y, z, px, py, pz, q*B, nx, ny, nz);
+/// (nx, ny, nz) defaults to (0, 0, 1)
+///
+/// A helix in its own frame can be defined with a pivotal point (x0, y0, z0),
+/// the velocity at that point (vx0, vy0, vz0), and an angular frequency w.
+/// Combining vx0 and vy0 to a transverse velocity vt0 one can parametrize the
+/// helix as:
+/// x(t) = x0 - vt0 / w*sin(- w*t + phi0)
+/// y(t) = y0 + vt0 / w*cos(- w*t + phi0)
+/// z(t) = z0 + vz0 * t
+///////////////////////////////////////////////////////////////////////
+/// was added by xiaohai (end)
+///////////////////////////////////////////////////////////////////////
+///
+/// \brief The StTrackHelix struct
+///        径迹的螺旋结构
 struct StTrackHelix {
   // double  pid;
   // short  id;
-  double Xc;
-  double Yc;
+  double Xc;  ///< xcenter in xy-plane measured from ring center
+  double Yc;  ///< ycenter in xy-plane measured from ring center
   double Zc;
   double pt;
   // double X;
@@ -25,7 +47,7 @@ struct StTrackHelix {
   double Vz;
   int h;
   // int    h2;
-  int Flag;
+  int Flag; ///< what is flag ?
   // int    q;
   // int    nhits;
   // double  dca;
